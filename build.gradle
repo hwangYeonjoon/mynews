@@ -19,5 +19,9 @@ dependencies {
 
 bootJar {
     archiveFileName = 'app.jar'
-    mainClass = 'api.news.NewsApplication'  // ✅ 여기 변경
+    manifest {
+        attributes(
+                'Main-Class': 'api.news.NewsApplication'
+        )
+    }
 }
