@@ -4,7 +4,7 @@ plugins {
     id 'io.spring.dependency-management' version '1.1.0'
 }
 
-group = 'com.example'
+group = 'api.news'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
@@ -14,19 +14,10 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-
-    // ✅ 테스트 의존성 추가
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-jar {
-    manifest {
-        attributes(
-                'Main-Class': 'com.example.mynews.MynewsApplication'
-        )
-    }
-}
-
-tasks.named('bootJar') {
+bootJar {
     archiveFileName = 'app.jar'
+    mainClass = 'api.news.NewsApplication'  // ✅ 여기 변경
 }
