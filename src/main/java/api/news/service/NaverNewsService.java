@@ -13,9 +13,9 @@ import java.nio.charset.StandardCharsets;
 @Service
 public class NaverNewsService {
 
-    private String clientId="";
+    private String clientId="YBdVp_ZcCRGnQFEFn5H2";
 
-    private String clientSecret="";
+    private String clientSecret="a_ceBG7h7R";
 
     private final RestTemplate restTemplate = new RestTemplate();
 
