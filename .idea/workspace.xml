@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3ad1f5c-c23c-4f2f-8dfa-00551140dc76" name="Changes" comment="# commit">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/news/service/NaverNewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/news/service/NaverNewsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753795490222</updated>
       <workItem from="1753795491496" duration="4000" />
-      <workItem from="1753795513469" duration="2349000" />
+      <workItem from="1753795513469" duration="2812000" />
     </task>
     <task id="LOCAL-00001" summary="# commit">
       <option name="closed" value="true" />
@@ -295,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753797657216</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="# commit">
+      <option name="closed" value="true" />
+      <created>1753797872689</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753797872689</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
