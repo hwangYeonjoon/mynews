@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ad1f5c-c23c-4f2f-8dfa-00551140dc76" name="Changes" comment="# commit" />
+    <list default="true" id="f3ad1f5c-c23c-4f2f-8dfa-00551140dc76" name="Changes" comment="# commit">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753795490222</updated>
       <workItem from="1753795491496" duration="4000" />
-      <workItem from="1753795513469" duration="1262000" />
+      <workItem from="1753795513469" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="# commit">
       <option name="closed" value="true" />
@@ -253,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753796707114</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="# commit">
+      <option name="closed" value="true" />
+      <created>1753796792714</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753796792714</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
