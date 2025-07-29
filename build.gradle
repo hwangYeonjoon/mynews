@@ -17,11 +17,10 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
+springBoot {
+    mainClass = 'api.news.NewsApplication'
+}
+
 bootJar {
     archiveFileName = 'app.jar'
-    manifest {
-        attributes(
-                'Main-Class': 'api.news.NewsApplication'
-        )
-    }
 }
