@@ -1,12 +1,12 @@
-# 베이스 이미지 설정 (OpenJDK 17 이상 권장)
-FROM openjdk:17-jdk-slim
+# 베이스 이미지
+FROM gradle:8.4.0-jdk17 AS build
+WORKDIR /app
+COPY . .
+RUN gradle build --no-daemon
 
-# JAR 파일 복사 (your-app-name.jar 는 실제 빌드한 JAR 이름으로)
-ARG JAR_FILE=build/libs/mynews-0.0.1-SNAPSHOT.jar
-COPY ${JAR_FILE} app.jar
-
-# 포트 노출
+# 실행용 이미지
+FROM eclipse-temurin:17
+WORKDIR /app
+COPY --from=build /app/build/libs/*.jar app.jar
 EXPOSE 8080
-
-# 앱 실행
-ENTRYPOINT ["java", "-jar", "/app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
